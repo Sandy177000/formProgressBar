@@ -1,0 +1,137 @@
+.container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.progress {
+  width: 100%;
+  background: #bababa;
+  border-radius: 20px;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background: #ff3434;
+  transition: all ease 1s;
+  border-radius: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40rem;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 50px;
+
+}
+
+input,
+select {
+  background: #bababa;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 10px;
+  outline: none;
+  margin: 5px;
+}
+
+option{
+    background: #bababa;
+    border: none!important;
+    border-radius: 20px!important;
+    padding: 10px!important;
+    padding-right: 10px!important;
+    outline: none!important;
+}
+
+option:hover{
+    background: #000!important;
+}
+
+body {
+    background: #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap:1;
+}
+
+button{
+    border: none;
+    border-radius: 10px;  
+    padding: 10px;
+    background: #ff3434;
+    width: 100px;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+select {
+    appearance: none; /* Remove default arrow icon */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    background-color: #f0f0f0; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    padding: 8px; /* Padding */
+    width: 200px; /* Width */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    text-align: center;
+  }
+
+  /* Style the options */
+  select option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    padding: 8px; /* Padding */
+    border: 1px solid gray;
+  }
+  select option:hover {
+    background: #000;
+  }
+
+  /* Style the selected option */
+  select option:checked {
+    background-color: #767676; /* Background color */
+    color: #fff; /* Text color */
+  }
